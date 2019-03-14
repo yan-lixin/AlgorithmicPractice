@@ -11,10 +11,4 @@ public class TwoSumSolution1 {
         }
         throw new IllegalArgumentException("No two sum solution");
     }
-
-    public static void main(String[] args) {
-        int[] nums = {2, 4, 8, 5};
-        int[] results = twoSum(nums, 9);
-        System.out.println(results[0] + "  " + results[1]);
-    }
 }
